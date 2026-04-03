@@ -1,0 +1,111 @@
+{
+  "dropdownCategories": [
+    {
+      "title": "Home",
+      "link": "#home",
+      "subOptions": [
+        {
+          "title": "Company info",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "link": "#services",
+      "subOptions": [
+        {
+          "title": "Web Designing",
+          "link": "/services/web-designing"
+        },
+        {
+          "title": "Web Applications",
+          "link": "/services/web-apps"
+        },
+        {
+          "title": "Mobile Apps",
+          "link": "/services/mobile-apps"
+        },
+        {
+          "title": "AI / ML Models",
+          "link": "/services/ai-ml"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "link": "#contact",
+      "subOptions": [
+        {
+          "title": "Email",
+          "link": "mailto:connect.Anandhukannan@proton.me"
+        },
+        {
+          "title": "GitHub",
+          "link": "https://github.com/DevWithAnandhuKannan"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/in/anandhu-kannan-b39845272/"
+        },
+        {
+          "title": "Instagram",
+          "link": "https://instagram.com/Kneazllle"
+        }
+      ]
+    },
+    {
+      "title": "Location",
+      "subOptions": [
+        {
+          "title": "Kerala, India",
+          "link": "https://www.google.com/maps/place/Kerala/@10.533321,73.4965758,7z/data=!3m1!4b1!4m6!3m5!1s0x3b0812ffd49cf55b:0x64bd90fbed387c99!8m2!3d10.1631526!4d76.6412712!16zL20vMGJ5aDhq?entry=ttu"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "link": "#project",
+      "subOptions": [
+        {
+          "title": "Exercise Correction App",
+          "link": "https://github.com/DevWithAnandhuKannan/excercise-correction"
+        },
+        {
+          "title": "Biopsy Detection App",
+          "link": "https://github.com/DevWithAnandhuKannan/DentalCollegeProject"
+        },
+        {
+          "title": "Chat Application",
+          "link": "#"
+        },
+        {
+          "title": "Email Spam Detector",
+          "link": "https://github.com/DevWithAnandhuKannan/email-spam"
+        },
+        {
+          "title": "Car Rental App",
+          "link": "https://github.com/DevWithAnandhuKannan/car_rental_app"
+        }
+      ]
+    }
+  ],
+  "mainNavLinks": [
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "Projects",
+      "href": "#project"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ]
+}
