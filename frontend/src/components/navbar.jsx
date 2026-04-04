@@ -305,7 +305,7 @@ export default function Navbar() {
                     ))}
                   </div>
                 </div>
-                <div className="w-1/3 pl-10 flex flex-col justify-between">
+                {/* <div className="w-1/3 pl-10 flex flex-col justify-between">
                   <div>
                     <h3 className="text-white/60 font-medium text-sm mb-4 uppercase tracking-wider">Featured Highlight</h3>
                     <div className="aspect-video w-full rounded-xl bg-gradient-to-br from-[#1a1a1a] to-black border border-white/5 overflow-hidden relative group cursor-pointer mb-4 flex items-center justify-center">
@@ -318,7 +318,7 @@ export default function Navbar() {
                   <a href="#" className="inline-flex items-center gap-2 text-xs text-white/40 hover:text-white font-medium transition-colors uppercase tracking-widest">
                     Read the story <IoIosArrowForward />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

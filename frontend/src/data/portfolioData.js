@@ -4,6 +4,7 @@ const portfolioData = {
   "phone": "+91 8547 28 4144",
   "email": "connect.anandhukannan@gmail.com",
   "links": {
+    "instagram":"instagram.com/kneazllle/",
     "linkedin": "linkedin.com/in/anandhu-kannan",
     "github": "github.com/devwithanandhukannan",
     "portfolio": "anandhu-kannan.vercel.app"

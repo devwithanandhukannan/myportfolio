@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { IoArrowForward } from "react-icons/io5";
 import ParticleBackground from "./ParticleBackground.jsx";
+import profileImg from "../assets/Anandhukannan.png";
 
 export const HomeSection = () => {
     const [isHovered, setIsHovered] = useState(false);
@@ -31,6 +32,9 @@ export const HomeSection = () => {
             className="relative min-h-[95vh] flex items-center justify-center bg-[#0a0a0a] pt-20 px-6 sm:px-12 w-full overflow-hidden"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
+            aria-label="Hero section - Anandhu Kannan Portfolio"
+            itemScope
+            itemType="https://schema.org/Person"
         >
             {/* The Custom Google IDX Particle Engine - Rendered only after typing for performance! */}
             {showParticles && (
@@ -61,6 +65,7 @@ export const HomeSection = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
                     className="text-white text-5xl sm:text-7xl lg:text-[6rem] font-light tracking-tight leading-tight mb-8 flex items-center justify-center min-h-[1.2em]"
+                    itemProp="name"
                 >
                     {displayedText}
                     <span 
@@ -68,11 +73,33 @@ export const HomeSection = () => {
                     ></span>
                 </motion.h1>
 
+                {/* Profile image - visible on page + SEO structured data */}
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
+                    className="mb-8 relative group cursor-default"
+                >
+                    <div className="w-0 h-0 rounded-full overflow-hidden border border-white/10 shadow-[0_0_40px_rgba(255,255,255,0.05)] relative">
+                        <div className="absolute inset-0  mix-blend-overlay z-10 group-hover:bg-transparent transition-colors duration-500"></div>
+                        <img 
+                            src={profileImg} 
+                            alt="Anandhu Kannan - Full Stack Developer and Cybersecurity Expert" 
+                            className="w-full h-full object-cover filter grayscale contrast-110 brightness-80 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700"
+                            itemProp="image"
+                            loading="eager"
+                            width="0"
+                            height="0"
+                        />
+                    </div>
+                </motion.div>
+
                 <motion.p 
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                     className="text-white/50 text-lg sm:text-xl font-light max-w-2xl leading-relaxed mb-12"
+                    itemProp="description"
                 >
                     Full Stack Developer & Certified Ethical Hacker (CEH v13). Specializing in scalable enterprise applications, secure system architecture, and AI-driven solutions across healthcare, e-commerce, and education.
                 </motion.p>

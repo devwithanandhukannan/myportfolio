@@ -1,0 +1,206 @@
+{
+  "name": "Anandhu Kannan",
+  "role": "Full Stack Developer & CEH v13",
+  "status": "Open to Relocation (India)",
+  "bio": "Full Stack Developer & CEH v13 with 3+ years of experience delivering 10+ production applications. I specialize in the MERN stack, Django, and scalable microservices across healthcare, e-commerce, and education.",
+  
+  "branches": {
+    "education": {
+      "icon": "GraduationCap",
+      "title": "Education",
+      "subtitle": "Academic Journey",
+      "color": "#3b82f6",
+      "active": "PG Diploma",
+      "children": [
+        {
+          "title": "MCA",
+          "subtitle": "FISAT, Angamaly",
+          "duration": "2023 - 2025",
+          "isActive": true,
+          "status": "Currently Pursuing",
+          "details": "Master's in Computer Applications focusing on AI/ML and Cybersecurity"
+        },
+        {
+          "title": "PG Diploma",
+          "subtitle": "Blockchain Technology",
+          "duration": "2024",
+          "isActive": false,
+          "status": "Completed",
+          "details": "IIITM-K Blockchain specialization"
+        },
+        {
+          "title": "BCA",
+          "subtitle": "NSS College, Idukki",
+          "duration": "2020 - 2023",
+          "isActive": false,
+          "status": "Completed",
+          "details": "Bachelor's in Computer Applications"
+        }
+      ]
+    },
+    
+    "skills": {
+      "icon": "Code",
+      "title": "Technical Skills",
+      "subtitle": "Expertise",
+      "color": "#10b981",
+      "children": [
+        {
+          "title": "Frontend",
+          "subtitle": "UI/UX Development",
+          "children": [
+            { "title": "React.js", "level": "Advanced" },
+            { "title": "Tailwind CSS", "level": "Advanced" },
+            { "title": "Bootstrap", "level": "Intermediate" },
+            { "title": "JavaScript", "level": "Advanced" }
+          ]
+        },
+        {
+          "title": "Backend",
+          "subtitle": "Server & APIs",
+          "children": [
+            { "title": "Node.js", "level": "Advanced" },
+            { "title": "Express.js", "level": "Advanced" },
+            { "title": "Django", "level": "Advanced" },
+            { "title": "Flask", "level": "Intermediate" }
+          ]
+        },
+        {
+          "title": "Database",
+          "subtitle": "Data Management",
+          "children": [
+            { "title": "MongoDB", "level": "Advanced" },
+            { "title": "MySQL", "level": "Advanced" },
+            { "title": "Firebase", "level": "Intermediate" },
+            { "title": "PostgreSQL", "level": "Intermediate" }
+          ]
+        },
+        {
+          "title": "AI/ML",
+          "subtitle": "Machine Learning",
+          "children": [
+            { "title": "Python", "level": "Advanced" },
+            { "title": "TensorFlow/PyTorch", "level": "Advanced" },
+            { "title": "Computer Vision", "level": "Intermediate" },
+            { "title": "Deep Learning", "level": "Advanced" }
+          ]
+        },
+        {
+          "title": "Security",
+          "subtitle": "Cybersecurity",
+          "children": [
+            { "title": "Penetration Testing", "level": "Advanced" },
+            { "title": "Burp Suite", "level": "Advanced" },
+            { "title": "OWASP", "level": "Advanced" },
+            { "title": "CEH v13", "level": "Certified" }
+          ]
+        }
+      ]
+    },
+    
+    "experience": {
+      "icon": "Briefcase",
+      "title": "Experience",
+      "subtitle": "Professional Record",
+      "color": "#f59e0b",
+      "active": "Freelance",
+      "children": [
+        {
+          "title": "Freelance Developer",
+          "subtitle": "Full Stack",
+          "duration": "2022 - Present",
+          "isActive": true,
+          "status": "Current Role",
+          "details": "Developed 10+ e-commerce & SaaS applications"
+        },
+        {
+          "title": "Full Stack Dev",
+          "subtitle": "Apply Goat",
+          "duration": "2023 - 2024",
+          "isActive": false,
+          "status": "Completed",
+          "details": "Built job automation platform with MERN stack"
+        },
+        {
+          "title": "Data Science Intern",
+          "subtitle": "SMEC Auto",
+          "duration": "2024",
+          "isActive": false,
+          "status": "Completed",
+          "details": "Developed ML models for automation"
+        },
+        {
+          "title": "Student Mentor",
+          "subtitle": "FISAT",
+          "duration": "2024 - 2025",
+          "isActive": true,
+          "status": "Current Role",
+          "details": "Mentoring junior developers"
+        }
+      ]
+    },
+    
+    "certifications": {
+      "icon": "Award",
+      "title": "Certifications",
+      "subtitle": "Credentials",
+      "color": "#ef4444",
+      "active": "CEH v13",
+      "children": [
+        {
+          "title": "CEH v13",
+          "subtitle": "Certified Ethical Hacker",
+          "duration": "2024",
+          "isActive": true,
+          "status": "Active & Verified",
+          "details": "EC-Council Certified Ethical Hacker v13"
+        },
+        {
+          "title": "MITRE ATT&CK",
+          "subtitle": "Framework Certified",
+          "duration": "2024",
+          "isActive": true,
+          "status": "Active",
+          "details": "MITRE ATT&CK Framework Specialist"
+        },
+        {
+          "title": "AWS Practitioner",
+          "subtitle": "Cloud Certified",
+          "duration": "2023",
+          "isActive": false,
+          "status": "Completed",
+          "details": "AWS Cloud Practitioner Certification"
+        }
+      ]
+    },
+    
+    "interests": {
+      "icon": "Compass",
+      "title": "Interests",
+      "subtitle": "Personal Pursuits",
+      "color": "#8b5cf6",
+      "children": [
+        {
+          "title": "Travel",
+          "subtitle": "Solo Exploration",
+          "details": "Exploring diverse cultures and landscapes"
+        },
+        {
+          "title": "Reading",
+          "subtitle": "Continuous Learning",
+          "details": "Tech books, sci-fi, and biographies"
+        },
+        {
+          "title": "Painting",
+          "subtitle": "Creative Expression",
+          "details": "Digital and traditional art"
+        },
+        {
+          "title": "Open Source",
+          "subtitle": "Community Contribution",
+          "details": "Contributing to developer tools"
+        }
+      ]
+    }
+  }
+}

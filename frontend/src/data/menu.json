@@ -38,7 +38,7 @@
       "subOptions": [
         {
           "title": "Email",
-          "link": "mailto:connect.Anandhukannan@proton.me"
+          "link": "mailto:connect.anandhukannan@gmail.com"
         },
         {
           "title": "GitHub",
@@ -67,25 +67,44 @@
       "title": "Projects",
       "link": "#project",
       "subOptions": [
+
         {
-          "title": "Exercise Correction App",
-          "link": "https://github.com/DevWithAnandhuKannan/excercise-correction"
+          "title": "AI Oral Cancer Detection & Biopsy Guidance System ",
+          "link": "https://github.com/devwithanandhukannan/DentalCollegeProject"
         },
         {
-          "title": "Biopsy Detection App",
-          "link": "https://github.com/DevWithAnandhuKannan/DentalCollegeProject"
-        },
-        {
-          "title": "Chat Application",
-          "link": "#"
+          "title":"AI Mock Interview Platform - DearHR",
+          "link":"https://github.com/devwithanandhukannan/DearHR"
         },
         {
           "title": "Email Spam Detector",
           "link": "https://github.com/DevWithAnandhuKannan/email-spam"
         },
         {
-          "title": "Car Rental App",
+          "title": "AI Car Rental App",
           "link": "https://github.com/DevWithAnandhuKannan/car_rental_app"
+        },
+        {
+          "title":"Hangout — Real-Time Social Media Platform",
+          "link":"https://github.com/devwithanandhukannan/Hangout"
+        },
+        {
+          "title":"Security Testing & Vulnerability Assessment ",
+          "link":"https://github.com/devwithanandhukannan/CEH/wiki"
+        },
+        {
+          "title":"Kneazle Linux Operating System",
+          "link":"https://github.com/devwithanandhukannan/kneazle_os"
+        },
+        {
+          "title":"XSS Vulnerability Checker",
+          "link":"https://github.com/devwithanandhukannan/XSS_vuln_checker"
+        },
+        {
+          "title":"Project Management Tool(Agile)",
+          "link":"https://github.com/devwithanandhukannan/Mini-jira-clone"
+        },{
+          
         }
       ]
     }

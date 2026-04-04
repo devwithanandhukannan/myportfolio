@@ -58,7 +58,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li><a href="https://github.com/DevWithAnandhuKannan" target="_blank" rel="noreferrer" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoGithub/> GitHub</a></li>
                 <li><a href="https://linkedin.com/in/anandhu-kannan" target="_blank" rel="noreferrer" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoLinkedin/> LinkedIn</a></li>
-                <li><a href="#" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoInstagram/> Instagram</a></li>
+                <li><a href="https://www.instagram.com/kneazllle/" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoInstagram/> Instagram</a></li>
                 <li><a href="mailto:connect.anandhukannan@gmail.com" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoMailOutline/> Email</a></li>
               </ul>
             </div>

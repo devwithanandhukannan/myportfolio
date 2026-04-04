@@ -2,38 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { IoStarOutline } from "react-icons/io5";
 
-const testimonies = [
-  {
-    name: "Dr. Sarah Mathews",
-    role: "Medical Researcher",
-    experience: "Anandhu's work on the oral biopsy detection system was groundbreaking. His AI implementation has significantly reduced our analysis latency with impressive accuracy.",
-  },
-  {
-    name: "James Carter",
-    role: "Technical Lead",
-    experience: "A brilliant Full Stack engineer. The microservices architecture he designed for our e-commerce platform handled our peak traffic flawlessly.",
-  },
-  {
-    name: "Priya Ramesh",
-    role: "Operations Manager",
-    experience: "We hired Anandhu for penetration testing. Not only did he uncover critical vulnerabilities, but his remediation roadmap was exceptionally clear and actionable.",
-  },
-  {
-    name: "David Chen",
-    role: "Project Manager",
-    experience: "Delivered our real-time social platform ahead of schedule. The WebSocket implementation is robust, and the modular codebase shows extreme attention to detail.",
-  },
-  {
-    name: "Aisha Rahman",
-    role: "Startup Founder",
-    experience: "The AI mock interview platform exceeded expectations. His ability to fuse cutting-edge local LLMs into a seamless React front-end is truly top tier.",
-  },
-  {
-    name: "Michael Torres",
-    role: "Lead Engineer",
-    experience: "An absolute professional. Implemented deep learning damage detection models cleanly, saving us manual inspection hours while maintaining high code quality.",
-  }
-];
+import {testimonies} from "../data/testimonials"
 
 // Futuristic Marquee Animation
 const marqueeVariants = {
