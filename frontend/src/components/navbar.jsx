@@ -285,7 +285,7 @@ export default function Navbar() {
             <ul className="space-y-1">
               {data.dropdownCategories.map((item, index) => (
                 <li key={index} className="group">
-                    {item.link.startsWith('/') ? (
+                    {item.link && item.link.startsWith('/') ? (
                         <Link 
                             to={item.link} 
                             onClick={() => handleNavClick(item.link)}
@@ -296,7 +296,7 @@ export default function Navbar() {
                         </Link>
                     ) : (
                         <button 
-                            onClick={() => handleNavClick(item.link)}
+                            onClick={() => handleNavClick(item.link || '#')}
                             className="w-full flex justify-between items-center py-5 border-b border-white/5 cursor-pointer text-left"
                         >
                             <span className="text-2xl font-light text-white/60 group-hover:text-white transition-colors">{item.title}</span>
