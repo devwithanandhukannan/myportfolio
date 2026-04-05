@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HomeSection } from "./components/homeSection.jsx";
 import Navbar from "./components/navbar.jsx"
 import { NavbarProvider, useNavbar } from "./context/NavbarContext";
@@ -16,33 +17,31 @@ import ContactSection from "./components/contactSection.jsx";
 import { AnimatePresence } from "framer-motion";
 import Testimonies from "./components/testimonialSection.jsx";
 import { Kneazle } from "./components/kneazleCard.jsx";
-function Layout() {
+import GalleryPage from "./components/galleryPage.jsx";
+
+function HomePage() {
   const { isBlurred } = useNavbar();
 
   return (
-    <>
-      <Navbar />
-      <FloatingActionMenu />
-      <div
-        className={`transition-all duration-300 ${isBlurred ? "blur-sm brightness-75" : ""
-          }`}
-      >
-        <div className="max-w-[1020px] mx-auto p-4">
-          <HomeSection />
-        </div>
-        <TechMarquee />
-        <About />
-        <Services />
-        <CertificationsSection />
-        <Projects />
-        <Testimonies />
-        <GithubGraph />
-        <BlogSection />
-        <ContactSection />
-        <Kneazle/>
-        <Footer />
+    <div
+      className={`transition-all duration-300 ${isBlurred ? "blur-sm brightness-75" : ""
+        }`}
+    >
+      <div className="max-w-[1020px] mx-auto p-4">
+        <HomeSection />
       </div>
-    </>
+      <TechMarquee />
+      <About />
+      <Services />
+      <CertificationsSection />
+      <Projects />
+      <Testimonies />
+      <GithubGraph />
+      <BlogSection />
+      <ContactSection />
+      <Kneazle />
+      <Footer />
+    </div>
   );
 }
 
@@ -58,13 +57,16 @@ export default function App() {
 
   return (
     <div className="bg-black min-h-screen">
-      {/* <AnimatePresence>
-        {isLoading && <LoadingScreen key="loader" />}
-      </AnimatePresence> */}
-      
       {!isLoading && (
         <NavbarProvider>
-          <Layout />
+          <Router>
+            <Navbar />
+            <FloatingActionMenu />
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/gallery" element={<GalleryPage />} />
+            </Routes>
+          </Router>
         </NavbarProvider>
       )}
     </div>
