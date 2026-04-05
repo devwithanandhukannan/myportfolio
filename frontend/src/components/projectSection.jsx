@@ -7,31 +7,31 @@ const projects = [
     name: "AI Oral Cancer Detection System",
     description: "Built Swin UNet segmentation model achieving 92%+ detection accuracy on 500+ dental scans. Deployed on Raspberry Pi. Patent filed in collaboration with Annoor Dental College.",
     tech: "React, Node.js, PyTorch, Flask, OpenCV",
-    link: "https://github.com/DevWithAnandhuKannan/DentalCollegeProject"
+    link: "https://github.com/devwithanandhukannan/DentalCollegeProject"
   },
   {
     name: "Hangout — Real-Time Social Platform",
     description: "Built social platform with real-time chat, video calls, notifications, and rankings. Implemented Socket.io WebSocket layer.",
     tech: "React.js, Node.js, Socket.io",
-    link: "https://github.com/DevWithAnandhuKannan/"
+    link: "https://github.com/devwithanandhukannan/Hangout"
   },
   {
     name: "AI Mock Interview Platform",
     description: "AI interview platform evaluating technical and HR modules using local LLMs for zero-cost generation and adaptive difficulty scoring.",
     tech: "React.js, Node.js, MongoDB, Ollama",
-    link: "https://github.com/DevWithAnandhuKannan/"
+    link: "https://github.com/devwithanandhukannan/DearHR"
   },
   {
     name: "Car Rental App & Damage Detection",
     description: "Car rental platform integrated with Hugging Face CV models for automated vehicle damage detection, reducing inspection time by 70%.",
     tech: "Django, React, MySQL, AI",
-    link: "https://github.com/DevWithAnandhuKannan/car_rental_app"
+    link: "https://github.com/devwithanandhukannan/car_rental_app"
   },
   {
     name: "Security Vulnerability Assessment",
     description: "Conducted extensive penetration testing on authorized environments identifying critical SQLi, XSS flaws. Documented via OWASP Top 10.",
     tech: "Burp Suite, OWASP ZAP, Nmap",
-    link: "https://github.com/DevWithAnandhuKannan/"
+    link: "https://github.com/devwithanandhukannan/CEH/wiki"
   }
 ];
 

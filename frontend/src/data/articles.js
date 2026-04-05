@@ -24,7 +24,7 @@ export const articles = [
     excerpt: "Exploring object traversal, flight payloads, and prototype-based vulnerabilities in modern React Server Components."
   },
   {
-    title: "JavaScript’s DNA: Objects, Prototypes & Constructors",
+    title: "JavaScript's DNA: Objects, Prototypes & Constructors",
     date: "Feb 21, 2026",
     readTime: "5 min",
     tags: ["JavaScript", "Core Concepts"],

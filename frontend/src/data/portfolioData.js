@@ -7,7 +7,7 @@ const portfolioData = {
     "instagram":"instagram.com/kneazllle/",
     "linkedin": "linkedin.com/in/anandhu-kannan",
     "github": "github.com/devwithanandhukannan",
-    "portfolio": "anandhu-kannan.vercel.app"
+    "portfolio": "anandhu-kannan.in"
   },
   "summary": "Full Stack Developer with 3+ years of experience delivering 10+ production web applications across healthcare, e-commerce, and education. Proficient in MERN stack, Django, REST APIs, and microservices. Certified Ethical Hacker (CEH v13) with SOC and SIEM experience. Open to relocation across India.",
   "technicalSkills": {

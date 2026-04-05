@@ -33,7 +33,7 @@ export default function GithubGraph() {
             )}
             
             <motion.img
-              src="https://raw.githubusercontent.com/DevWithAnandhuKannan/DevWithAnandhuKannan/output/github-snake-dark.svg"
+              src="https://raw.githubusercontent.com/devwithanandhukannan/devwithanandhukannan/output/github-snake-dark.svg"
               alt="GitHub Contribution Graph"
               onLoad={() => setImageLoaded(true)}
               initial={{ opacity: 0 }}

@@ -56,7 +56,7 @@ const Footer = () => {
             <div>
               <p className="text-[10px] text-white/40 uppercase tracking-widest font-mono mb-4">Connect</p>
               <ul className="space-y-3">
-                <li><a href="https://github.com/DevWithAnandhuKannan" target="_blank" rel="noreferrer" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoGithub/> GitHub</a></li>
+                <li><a href="https://github.com/devwithanandhukannan" target="_blank" rel="noreferrer" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoGithub/> GitHub</a></li>
                 <li><a href="https://linkedin.com/in/anandhu-kannan" target="_blank" rel="noreferrer" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoLinkedin/> LinkedIn</a></li>
                 <li><a href="https://www.instagram.com/kneazllle/" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoLogoInstagram/> Instagram</a></li>
                 <li><a href="mailto:connect.anandhukannan@gmail.com" className="text-xs text-white/60 hover:text-white transition-colors flex items-center gap-2"><IoMailOutline/> Email</a></li>
@@ -67,7 +67,7 @@ const Footer = () => {
               <p className="text-[10px] text-white/40 uppercase tracking-widest font-mono mb-4">Support</p>
               <div className="p-2 border border-white/5 rounded-xl bg-white/[0.02] hover:border-white/20 hover:bg-white/5 transition-all w-24 flex flex-col items-center gap-2">
                 <img
-                  src="https://raw.githubusercontent.com/DevWithAnandhuKannan/tempimages/main/anandhu_upi_qr.png"
+                  src="https://raw.githubusercontent.com/devwithanandhukannan/tempimages/main/anandhu_upi_qr.png"
                   alt="Scan UPI QR"
                   className="w-16 h-16 object-contain rounded-md opacity-70 hover:opacity-100 transition-opacity"
                 />

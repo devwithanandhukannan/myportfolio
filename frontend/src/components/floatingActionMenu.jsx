@@ -16,7 +16,7 @@ const FloatingActionMenu = () => {
     { 
       icon: <IoLogoGithub size={20} />, 
       label: "GitHub", 
-      href: "https://github.com/DevWithAnandhuKannan" 
+      href: "https://github.com/devwithanandhukannan" 
     },
     { 
       icon: <IoLogoLinkedin size={20} />, 
