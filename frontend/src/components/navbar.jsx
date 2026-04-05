@@ -4,6 +4,7 @@ import portfolioData from "../data/portfolioData";
 import { IoMenu, IoClose, IoSearch, IoMail, IoLogoGithub, IoLocation, IoBriefcase, IoSchool, IoCode, IoRocket } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 import { useNavbar } from "../context/NavbarContext";
+import logo from "../assets/knzle_logo.png";
 
 export default function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);
@@ -222,7 +223,7 @@ export default function Navbar() {
             {/* Logo */}
             <div className="flex-shrink-0 cursor-pointer group flex items-center gap-2 relative z-50">
               <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center text-black font-bold group-hover:bg-white/80 transition-colors">
-                k
+                <img src={logo} alt="kNZLE Logo" className="w-4 h-4 object-contain" />
               </div>
               <h1 className="font-semibold text-white/90 text-lg tracking-wide group-hover:text-white transition-colors">
                 KNZLE
