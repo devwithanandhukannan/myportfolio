@@ -1,36 +1,26 @@
 # Robots.txt for anandhu-kannan.in
-# Allow all legitimate search engine crawlers
+# Allow all legitimate search engine crawlers to index the site
 
+# Default rules for all bots
 User-agent: *
 Allow: /
-Allow: /gallery
-Allow: /assets/
-Allow: /public/
 
+# Disallow sensitive paths
 Disallow: /node_modules/
 Disallow: /.env
 Disallow: /.git/
 Disallow: /dist/
-Disallow: /vite.config.js
+Disallow: /.vite
 
-# Specific instructions for Google Bot
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 0
-
-# Specific instructions for Bing
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 0
-
-# Block bad bots
+# Block problematic bots
 User-agent: MJ12bot
+Disallow: /
+
 User-agent: AhrefsBot
+Disallow: /
+
 User-agent: SemrushBot
 Disallow: /
 
-# Sitemap location
+# Sitemap location for search engines
 Sitemap: https://anandhu-kannan.in/sitemap.xml
-
-# Cache settings
-Cache-Control: public, max-age=86400
