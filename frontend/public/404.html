@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found | Anandhu Kannan</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Return to my portfolio to explore my projects and services." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://anandhu-kannan.in/" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+      color: #ffffff;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .error-code {
+      font-size: 8rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -2px;
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: -0.5px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    a {
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
+      color: #000;
+      font-weight: 600;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: #38bdf8;
+      border: 1px solid #38bdf8;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(56, 189, 248, 0.1);
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .link-item {
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .link-item:hover {
+      background: rgba(56, 189, 248, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .link-item h3 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      color: #38bdf8;
+    }
+
+    .link-item p {
+      font-size: 0.9rem;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="error-code">404</div>
+    <h1>Page Not Found</h1>
+    <p>The page you're looking for doesn't exist or has been moved. Don't worry, you can explore my portfolio and get back on track.</p>
+
+    <div class="buttons">
+      <a href="/" class="btn-primary">← Back to Home</a>
+      <a href="/#projects" class="btn-secondary">View My Projects</a>
+    </div>
+
+    <div class="links">
+      <a href="/#about" class="link-item">
+        <h3>About Me</h3>
+        <p>Learn about my skills and experience</p>
+      </a>
+      <a href="/#services" class="link-item">
+        <h3>Services</h3>
+        <p>Explore what I can offer</p>
+      </a>
+      <a href="/#contact" class="link-item">
+        <h3>Get in Touch</h3>
+        <p>Let's start a conversation</p>
+      </a>
+      <a href="/gallery" class="link-item">
+        <h3>Gallery</h3>
+        <p>Check out my visual work</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

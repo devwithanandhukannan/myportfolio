@@ -71,6 +71,7 @@ export const HomeSection = () => {
                     <span 
                        className={`inline-block w-[4px] sm:w-[6px] h-[0.9em] ml-2 animate-pulse bg-gradient-to-b from-[#4285f4] via-[#ea4335] to-[#fbbc05] transition-opacity duration-500 ${showParticles ? "opacity-0" : "opacity-100"}`}
                     ></span>
+                    <span className="sr-only">Full Stack Developer and CEH v13 Cybersecurity Expert</span>
                 </motion.h1>
 
                 {/* Profile image - visible on page + SEO structured data */}
