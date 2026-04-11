@@ -1,114 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Main Pages -->
   <url>
-    <loc>https://anandhu-kannan.in/</loc>
+    <loc>https://www.anandhu-kannan.in/</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://anandhu-kannan.in/gallery</loc>
+    <loc>https://www.anandhu-kannan.in/gallery</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Home Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#home</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- About Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#about</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Services Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#services</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Projects Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#projects</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Technologies/Tech Stack Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#technologies</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Certifications Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#certifications</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Testimonials Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#testimonials</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- GitHub Graph Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#github</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Blog Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#blog</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Contact Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#contact</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Kneazle/Interactive Feature Section -->
-  <url>
-    <loc>https://anandhu-kannan.in/#kneazle</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-</urlset>
-    <loc>https://anandhu-kannan.in/#contact</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
