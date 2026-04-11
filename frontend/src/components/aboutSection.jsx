@@ -245,7 +245,7 @@ const About = () => {
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
             <span className="text-[10px] uppercase font-mono tracking-widest text-white/60">Open to Relocation (India)</span>
           </div>
-          <h1 className="text-4xl sm:text-6xl font-light mb-6 tracking-tight text-white/90">About Me</h1>
+          <h2 className="text-4xl sm:text-6xl font-light mb-6 tracking-tight text-white/90">About Me</h2>
           <p className="text-white/50 text-sm sm:text-base font-light leading-relaxed">
             I'm <span className="text-white/90 font-medium">Anandhu Kannan</span>, a Full Stack Developer & CEH v13 with 3+ years of experience delivering 10+ production applications. I specialize in the MERN stack, Django, and scalable microservices across healthcare, e-commerce, and education.
           </p>

@@ -161,9 +161,9 @@ export default function Navbar() {
               <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center text-black font-bold group-hover:bg-white/80 transition-colors">
                 <img src={logo} alt="kNZLE Logo" className="w-4 h-4 object-contain" />
               </div>
-              <h1 className="font-semibold text-white/90 text-lg tracking-wide group-hover:text-white transition-colors">
+              <span className="font-semibold text-white/90 text-lg tracking-wide group-hover:text-white transition-colors">
                 KNZLE
-              </h1>
+              </span>
             </Link>
 
             {/* DESKTOP MENU */}
@@ -275,7 +275,7 @@ export default function Navbar() {
       {menuOpen && (
         <div className="fixed inset-0 z-[100] bg-[#0a0a0a] flex flex-col md:hidden" style={{ animation: 'fade-in 0.2s ease-out forwards' }}>
           <div className="p-6 flex items-center justify-between border-b border-white/5">
-            <h1 className="font-semibold text-white/80 text-xl tracking-wide">kNZLE</h1>
+            <span className="font-semibold text-white/80 text-xl tracking-wide">kNZLE</span>
             <button onClick={toggleMenu} className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-white/60 hover:text-white transition-all">
               <IoClose size={24} />
             </button>

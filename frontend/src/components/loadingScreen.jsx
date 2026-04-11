@@ -47,7 +47,7 @@ export default function LoadingScreen() {
     <div className="fixed inset-0 z-[100] bg-black text-[#0f0] font-mono p-6 sm:p-12 text-xs sm:text-sm flex flex-col justify-end pointer-events-none">
       <div className="max-w-3xl w-full">
         <div className="mb-8">
-          <h1 className="text-4xl sm:text-6xl font-bold mb-2 tracking-tighter opacity-80">ANTIGRAVITY</h1>
+          <h2 className="text-4xl sm:text-6xl font-bold mb-2 tracking-tighter opacity-80">ANTIGRAVITY</h2>
           <p className="opacity-50">ANANDHU KANNAN SECURE PORTFOLIO TERMINAL v3.0</p>
         </div>
         

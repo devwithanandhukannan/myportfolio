@@ -41,7 +41,7 @@ export default function GalleryPage() {
             <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" />
           </Link>
           <div>
-            <h1 className="text-3xl sm:text-4xl font-light tracking-tight text-white/90">Visual Journey</h1>
+            <h2 className="text-3xl sm:text-4xl font-light tracking-tight text-white/90">Visual Journey</h2>
             <p className="text-[9px] text-white/40 uppercase tracking-widest font-mono mt-2">Snapshot of my professional & personal life</p>
           </div>
         </div>

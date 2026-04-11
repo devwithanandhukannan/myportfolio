@@ -14,9 +14,9 @@ const Footer = () => {
     <footer id="contact" className="w-full bg-[#0a0a0a] text-white pt-24 pb-12 px-6 sm:px-12 lg:px-40 relative overflow-hidden border-t border-white/5">
       {/* Huge Background Typography */}
       <div className="absolute top-0 left-0 w-full overflow-hidden flex justify-center pointer-events-none opacity-[0.02] select-none">
-        <h1 className="text-[15vw] font-bold leading-none tracking-tighter whitespace-nowrap">
+        <h2 className="text-[15vw] font-bold leading-none tracking-tighter whitespace-nowrap">
           ANANDHU
-        </h1>
+        </h2>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">

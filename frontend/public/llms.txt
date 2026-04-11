@@ -1,0 +1,91 @@
+# LLM Information File for anandhu-kannan.in
+
+## Website Purpose
+Portfolio website for Anandhu Kannan - Full Stack Developer & CEH v13 Cybersecurity Expert from Kerala, India.
+
+## Primary Content Areas
+
+### Home Section
+- Main hero: Anandhu Kannan, Full Stack Developer & Security Expert
+- Status: Open to opportunities
+- Technologies: React, Node.js, Express, MongoDB, Django, Python, AI/ML
+
+### About Section
+- 3+ years of professional development experience
+- CEH v13 Certified Cybersecurity Expert
+- Built 10+ production applications
+- Industries: Healthcare, e-commerce, education, automation
+
+### Services Offered
+- Full Stack Web Development (MERN, Django)
+- Backend Development (Node.js, Python, Django)
+- Frontend Development (React.js, TypeScript)
+- Cybersecurity Consulting (Ethical Hacking, Penetration Testing)
+- API Development and Microservices
+- AI/ML Engineering
+- Database Design and Optimization
+
+### Skills & Expertise
+**Languages:** JavaScript, TypeScript, Python, Java, Bash
+**Frontend:** React.js, Redux, Tailwind CSS, Framer Motion
+**Backend:** Node.js, Express, Django, Flask
+**Databases:** MongoDB, MySQL, PostgreSQL
+**DevOps & Tools:** Docker, Git, CI/CD, Burp Suite, Nmap, Metasploit, OWASP ZAP
+**Security:** CEH v13, Ethical Hacking, Penetration Testing, OWASP Top 10
+**AI/ML:** TensorFlow, PyTorch, OpenCV, Scikit-learn, Pandas, NumPy
+
+### Certifications
+- Certified Ethical Hacker (CEH v13) - EC-Council, 2023
+- MITRE ATT&CK v13 Foundations - AttackIQ Academy, 2023
+
+### Projects Highlighted
+1. **AI Oral Cancer Detection & Biopsy Guidance System**
+   - Swin UNet deep learning model with 92%+ accuracy
+   - Patent filed in collaboration with FISAT and Annoor Dental College
+   - Status: Production-ready on Raspberry Pi
+
+2. **AI Mock Interview Platform**
+   - Interview preparation with HR, technical, aptitude modules
+   - Local LLM integration with adaptive difficulty
+   - Real-time scoring on communication, accuracy, confidence
+
+3. **ApplyGoat Browser Extension**
+   - Job automation platform
+   - 1000+ active users
+   - Built with React.js, Node.js, MongoDB
+
+### Contact Information
+- Email: connect.anandhukannan@gmail.com
+- Phone: +91-8547284144
+- Location: Angamaly, Kerala, India
+- Available for: India and Remote roles
+
+### Social Profiles
+- LinkedIn: https://www.linkedin.com/in/anandhu-kannan
+- GitHub: https://github.com/devwithanandhukannan
+- Instagram: https://www.instagram.com/kneazllle/
+- Twitter/X: https://x.com/kneazllle
+- Medium: https://medium.com/@anandhukannan
+
+### Education
+- Federal Institute of Science and Technology (FISAT)
+- NSS College, Rajakumari
+
+### Content Guidelines
+- Focus: Professional services, portfolio projects, security expertise
+- Tone: Professional, technical, accessible
+- Target Audience: Potential clients, recruiters, tech professionals
+- Keywords: Full Stack Developer, MERN, Cybersecurity, CEH, Kerala developer
+
+### Site Structure
+- Single-page portfolio with scroll sections
+- Additional page: /gallery for visual portfolio
+- Responsive design optimized for mobile and desktop
+- Dark theme with cyan accent colors
+
+### Technical Stack
+- Built with: Vite, React.js, Tailwind CSS, Framer Motion
+- Hosted on: Vercel
+- Domain: https://anandhu-kannan.in/
+- HTTPS: Enabled with Let's Encrypt SSL certificate
+- CDN: Vercel global edge network
